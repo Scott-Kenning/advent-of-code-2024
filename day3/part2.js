@@ -9,7 +9,6 @@ let disabled = false;
 
 lines.forEach(line => {
     const matches = line.match(/mul\(\d+,\d+\)|do\(\)|don't\(\)/g); // I really hate regex
-    console.log(matches)
 
     // note that this is relying on the matches being returned in order
 

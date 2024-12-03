@@ -47,4 +47,4 @@ for (let line of lines) {
     }
 }
 
-console.log(`Number of Safe Reports: ${safeReportCount}`);
+console.log(safeReportCount);
